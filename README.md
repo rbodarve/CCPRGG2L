@@ -1,2 +1,2 @@
-# CCOBJPRG
-This repository is for CCOBJPRG Exercises
+# CCPRGG2L
+This repository is for Intermediate Programming Subject (CCPRGG2L) Exercises
