@@ -2,7 +2,7 @@ import java.io.File;
 
 public class infoFile {
     public static void main(String[] args) {
-    File myObj = new File("C:\\Users\\USER\\Downloads\\sample.txt");
+    File myObj = new File("sample.txt");
     if (myObj.exists()) {
       System.out.println("File name: " + myObj.getName());
       System.out.println("Absolute path: " + myObj.getAbsolutePath());

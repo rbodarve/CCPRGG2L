@@ -4,7 +4,7 @@ import java.io.IOException;
 public class writeFile {
     public static void main(String[] args) {
     try {
-      FileWriter myWriter = new FileWriter("C:\\Users\\USER\\Downloads\\sample.txt");
+      FileWriter myWriter = new FileWriter("sample.txt");
       myWriter.write("Files in Java might be tricky, but it is fun enough!");
       myWriter.close();
       System.out.println("Successfully wrote to the file.");

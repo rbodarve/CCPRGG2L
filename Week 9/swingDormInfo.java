@@ -17,7 +17,8 @@ public class swingDormInfo extends JFrame {
         // Set up the JFrame
         setTitle("Dorm User Information");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		f = this;
+        
         // Create main panel with BorderLayout
         JPanel mainPanel = new JPanel(new BorderLayout());
         
@@ -89,7 +90,11 @@ public class swingDormInfo extends JFrame {
         buttonPanel.add(button3);
         mainPanel.add(buttonPanel, BorderLayout.SOUTH);
         button.addActionListener((ActionEvent e) ->{
-            JOptionPane.showMessageDialog(f, "Saved!");
+            if(textField.getText().isEmpty() || String.valueOf(passwordField.getPassword()).isEmpty()) {
+                JOptionPane.showMessageDialog(f, "Error: Username and Password cannot be empty!", "Validation Error", JOptionPane.ERROR_MESSAGE);
+            } else {
+                JOptionPane.showMessageDialog(f, "Saved!");
+            }
         });
         button2.addActionListener((ActionEvent e) ->{
             if (e.getSource() == button2){

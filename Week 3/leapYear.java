@@ -7,7 +7,7 @@ public class leapYear {
         System.out.println("Program to check if given year is leap year.");
         System.out.print("Enter year to check: ");
         year = myObj.nextInt();
-        if(year%400==0 || year%4==0&year%100!=0)
+        if(year%400==0 || (year%4==0 && year%100!=0))
             System.out.println("Year " + year + " is a leap year.");
         else
             System.out.println("Year " + year + " is not a leap year.");

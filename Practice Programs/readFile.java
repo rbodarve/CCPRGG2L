@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class readFile {
     public static void main(String[] args) {
     try {
-      File myObj = new File("C:\\Users\\USER\\Downloads\\sample.txt");
+      File myObj = new File("sample.txt");
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();

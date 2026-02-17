@@ -24,7 +24,7 @@ public class improveDeleteArray {
 					System.out.println("Current List: " + myList);
 					
 					System.out.print("Enter an element to delete: ");
-					elementInput = userInput.nextShort();
+					elementInput = userInput.nextInt();
 					
 					//Checks if the element input by the user contains that certain element
 					if(myList.contains(elementInput)) {
@@ -38,9 +38,8 @@ public class improveDeleteArray {
 							
 							//Iterates through the list of number
 							for(int elementNumber : myList) {
-								System.out.println(elementNumber + " ");
+								System.out.print(elementNumber + " ");
 							}
-							
 							System.out.println(); //Gives a space to the updated list
 						}
 					} else {
