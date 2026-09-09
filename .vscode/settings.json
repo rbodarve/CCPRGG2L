@@ -1,13 +1,13 @@
 {
     "java.project.sourcePaths": [
-        "practicePrograms",
-        "Week 6",
-        "Week 5",
-        "Week 4",
+        "Practice Programs",
         "Week 3",
+        "Week 4",
+        "Week 5",
+        "Week 6",
+        "Week 7",
+        "Week 9",
+        "Week 10",
         "Week 11"
-    ],
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": []
+    ]
 }
