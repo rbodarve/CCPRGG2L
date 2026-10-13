@@ -101,7 +101,7 @@ Collection of utility programs demonstrating various Java concepts:
 ## Prerequisites
 
 - Java Development Kit (JDK) 21 or higher installed
-- Linux/WSL environment (or Windows/Mac with appropriate path configuration)
+- Windows, macOS or Linux terminal (the commands below use a POSIX shell such as Git Bash)
 - Text editor or IDE (VS Code, NetBeans, IntelliJ IDEA recommended)
 - Basic command-line knowledge
 
